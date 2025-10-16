@@ -1,2 +1,8 @@
-# Creaci-n-de-un-Keylogger
-Implementar en un entorno controlado un keylogger para comprender su uso en entornos inseguros, la práctica es educacional y  no debe ser usada con intenciones no éticas e ilegales. El programa debe crear un archivo con los logs.
+Para iniciar el programa, primero toca asegurarse de tener instalada la libreria del keyboard, para eso se debe ejecutar en la terminal de VScode el comando, "pip install keyboard"
+Si se quiere verificar si keyboard ya esta descargado, usar el comando "keyboad version "
+
+Usé la liberia keyboard para poder leer todo lo que se ingrese por el teclado ya que esta libreria se usa para simular y controlar el teclado. Ya sea grabar una combinación o solo ver las letras
+primero cree una función la cual se ejecutará cada que se use una tecla, la cual tiene como proposito capturar el nombre de la letra que se presiona, aqui se usa el parametro event, el cual  contiene información sobre el evento de tecla presionada. En este caso, nos interesa el atributo name del evento, que contiene el nombre de la tecla
+
+Y por último usamos keyboard.on_press, la cual es una función de la biblioteca keyboard que toma una función de callback como argumento, en este caso, on_press es la función de callback. 
+Cada vez que se presiona una tecla, on_press se ejecutará con el evento de tecla como argumento.
