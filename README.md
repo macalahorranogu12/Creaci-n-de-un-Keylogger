@@ -6,3 +6,4 @@ primero cree una función la cual se ejecutará cada que se use una tecla, la cu
 
 Y por último usamos keyboard.on_press, la cual es una función de la biblioteca keyboard que toma una función de callback como argumento, en este caso, on_press es la función de callback. 
 Cada vez que se presiona una tecla, on_press se ejecutará con el evento de tecla como argumento.
+Y de ahi ya solo añadi una tecla para finalizar el programa con la telca esc
